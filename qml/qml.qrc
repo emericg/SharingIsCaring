@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>Application.qml</file>
+        <file>MobileHeader.qml</file>
+        <file>MobileDrawer.qml</file>
+        <file>MainScreen.qml</file>
+        <file>Tutorial.qml</file>
+        <file>About.qml</file>
+        <file>Settings.qml</file>
+        <file>ThemeEngine.qml</file>
+
+        <file alias="FileDialogQML.qml">components/FileDialog_mobile.qml</file>
+
+        <file alias="ImageSvg.qml">components_generic/ImageSvg.qml</file>
+        <file alias="ItemImageButton.qml">components_generic/ItemImageButton.qml</file>
+        <file alias="ItemMenuButton.qml">components_generic/ItemMenuButton.qml</file>
+        <file alias="ButtonWireframe.qml">components_generic/ButtonWireframe.qml</file>
+        <file alias="ButtonWireframeImage.qml">components_generic/ButtonWireframeImage.qml</file>
+        <file alias="RangeSliderValue.qml">components_generic/RangeSliderValue.qml</file>
+        <file alias="ProgressBarThemed.qml">components_themed/ProgressBarThemed.qml</file>
+        <file alias="RadioButtonThemed.qml">components_themed/RadioButtonThemed.qml</file>
+        <file alias="RangeSliderThemed.qml">components_themed/RangeSliderThemed.qml</file>
+        <file alias="SpinBoxThemed.qml">components_themed/SpinBoxThemed.qml</file>
+        <file alias="SliderThemed.qml">components_themed/SliderThemed.qml</file>
+        <file alias="SwitchThemedMobile.qml">components_themed/SwitchThemed_mobile.qml</file>
+        <file alias="ComboBoxThemed.qml">components_themed/ComboBoxThemed.qml</file>
+    </qresource>
+
+    <qresource prefix="/js">
+        <file alias="UtilsNumber.js">components_js/UtilsNumber.js</file>
+        <file alias="UtilsPath.js">components_js/UtilsPath.js</file>
+        <file alias="UtilsString.js">components_js/UtilsString.js</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>logos/logo.svg</file>
+
+        <file>icons_material/baseline-arrow_back-24px.svg</file>
+        <file>icons_material/baseline-backup-24px.svg</file>
+        <file>icons_material/baseline-chevron_left-24px.svg</file>
+        <file>icons_material/baseline-chevron_right-24px.svg</file>
+        <file>icons_material/baseline-close-24px.svg</file>
+        <file>icons_material/baseline-import_contacts-24px.svg</file>
+        <file>icons_material/baseline-insert_link-24px.svg</file>
+        <file>icons_material/baseline-language-24px.svg</file>
+        <file>icons_material/baseline-list-24px.svg</file>
+        <file>icons_material/baseline-menu-24px.svg</file>
+        <file>icons_material/baseline-more_vert-24px.svg</file>
+        <file>icons_material/baseline-settings-20px.svg</file>
+        <file>icons_material/baseline-smartphone-24px.svg</file>
+        <file>icons_material/baseline-stars-24px.svg</file>
+        <file>icons_material/baseline-subdirectory_arrow_left-24px.svg</file>
+        <file>icons_material/baseline-supervised_user_circle-24px.svg</file>
+        <file>icons_material/baseline-warning-24px.svg</file>
+
+        <file>icons_material/outline-archive-24px.svg</file>
+        <file>icons_material/outline-info-24px.svg</file>
+        <file>icons_material/outline-mail_outline-24px.svg</file>
+        <file>icons_material/outline-settings-24px.svg</file>
+
+        <file>icons_material/duotone-brightness_4-24px.svg</file>
+        <file>icons_material/duotone-bug_report-24px.svg</file>
+        <file>icons_material/duotone-exit_to_app-24px.svg</file>
+        <file>icons_material/duotone-insert_chart-24px.svg</file>
+        <file>icons_material/duotone-minimize-24px.svg</file>
+        <file>icons_material/duotone-sd_card-24px.svg</file>
+        <file>icons_material/duotone-style-24px.svg</file>
+        <file>icons_material/duotone-touch_app-24px.svg</file>
+        <file>icons_material/duotone-transfer_within_a_station-24px.svg</file>
+        <file>icons_material/duotone-tune-24px.svg</file>
+        <file>icons_material/duotone-vibration-24px.svg</file>
+        <file>icons_material/duotone-volume_up-24px.svg</file>
+    </qresource>
+</RCC>
