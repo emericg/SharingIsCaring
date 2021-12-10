@@ -204,7 +204,7 @@ ApplicationWindow {
 
     Connections {
         target: Qt.application
-        onStateChanged: {
+        function onStateChanged() {
             switch (Qt.application.state) {
             case Qt.ApplicationSuspended:
                 //console.log("Qt.ApplicationSuspended")
@@ -230,7 +230,7 @@ ApplicationWindow {
         id: exitTimer
         interval: 3000
         repeat: false
-        onRunningChanged: exitWarning.opacity = running
+        //onRunningChanged: exitWarning.opacity = running
     }
 
     // QML /////////////////////////////////////////////////////////////////////

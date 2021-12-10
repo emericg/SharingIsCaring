@@ -1,7 +1,7 @@
 pragma Singleton
 
-import QtQuick 2.12
-import QtQuick.Controls.Material 2.12
+import QtQuick 2.15
+import QtQuick.Controls.Material 2.15
 
 Item {
     enum ThemeNames {
@@ -115,7 +115,7 @@ Item {
     Component.onCompleted: loadTheme(settingsManager.appTheme)
     Connections {
         target: settingsManager
-        onAppThemeChanged: { loadTheme(settingsManager.appTheme) }
+        function onAppThemeChanged() { loadTheme(settingsManager.appTheme) }
     }
 
     function loadTheme(themeIndex) {
